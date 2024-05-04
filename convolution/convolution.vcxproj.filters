@@ -15,15 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="winogradConv.cpp">
+    <ClInclude Include="convolution.cpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="avx_transpose.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gemm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convolution.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
